@@ -5,11 +5,11 @@ import { films } from './components/films'
 function App() {
 
   return (
-    <>
+    <div>
       {
         films.map(film => <Card film={film}/>)
       }
-    </>
+    </div>
   )
 }
 
