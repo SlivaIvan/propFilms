@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+body {
+  background-color: #faf7f2;
+}
+
+.card__wrap{
+  min-width: 600px;
+  height: 250px;
+  margin: 70px auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  box-shadow: 2px 6px 10px 4px rgba(0,  0,  0, 0.17);
+}
+.img__wrp {
+  position: absolute;
+  top: -20%;
+  left: 5%;
+}
+
+.wrap1 {
+  min-width: 30%;
+}
+
+.wrap2 {
+  min-width: 40%;
+  padding: 20px;
+}
+
+.wrap3 {
+ min-width: 15%;
+ margin-top: 3%;
+}
+
+.wraps {
+  max-width: 12%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 150px;
+}
+.labels {
+  top: 18%;
+  right: -10%;
+  position: absolute;
+  width: 60px;
+  background-color: aquamarine;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 2px 6px 10px 4px rgba(0,  0,  0, 0.17);
+}
+
+.title {
+  font-size: 25px;
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+}
+
+.card-body-stars {
+  padding: 0;
+}
+
+.star {
+  list-style-type: none;
+}
+
+.like {
+  max-width: 20px;
+}
+.share {
+  max-width: 20px;
+  margin-left: 5px;
+}
+.btn__group{
+  display: flex;
+  align-items: center;
+
+}
+
+.btn {
+  background-color: #9c9489;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.btn__link{
+  color: #9c9489;
+  margin-left: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
